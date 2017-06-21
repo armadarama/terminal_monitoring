@@ -1,0 +1,11 @@
+body {
+    background: white url("images/paper-background.jpeg")
+}
+
+.navbar{
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-family: cursive;
+}

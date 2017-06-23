@@ -1,0 +1,9 @@
+{% extends 'terminal/base.html' %}
+
+{% block body %}
+
+	<ul>
+		{% for terminal in object_list %}
+			<li>{{ terminal.sim_card_number }}</li>
+	</ul>
+{% endblock %}
